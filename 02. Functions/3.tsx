@@ -4,4 +4,10 @@ function consoleError(errMsg: string):void {
     // return "throws";
 }
 
+consoleError('An error has occured!');
+
+function handleError(errmsg: string): never {
+    throw new Error(errmsg);
+}
+
 export {};

@@ -3,7 +3,7 @@ type User = {
     name: string;
     email: string;
     isActive: boolean;
-    creditCardDetails?: number // optional
+    creditCardDetails?: number; // optional
 };
 
 const myUser: User = {
@@ -13,7 +13,5 @@ const myUser: User = {
     isActive: false,
 };
 
-myUser.email = "thor@gmail.com"
+myUser.email = 'thor@gmail.com';
 // myUser._id = "123" // not allowed
-
-

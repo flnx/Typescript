@@ -25,3 +25,5 @@ const heroes = ['thor', 'spiderman', 'ironman'];
 heroes.map((hero: string): string | number => {
     return `The hero is ${hero}`;
 });
+
+export {};
