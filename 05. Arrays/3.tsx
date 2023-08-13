@@ -10,4 +10,17 @@ allUsers.push({
     isActive: false,
 });
 
+const MLModels: number[][] = [
+    [255, 255, 255], 
+    []
+];
+
+function doSomething(val: Array<string>) {
+    // ...
+}
+
+const myArr: string[] = ["hello", "world"];
+
+doSomething(myArr);
+
 export {};
